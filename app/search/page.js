@@ -27,7 +27,8 @@ export default function SearchPage() {
   const results = q.length === 0 ? [] : produce.filter(item => {
     const nameEs = item.nombre.es.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     const nameEn = item.nombre.en.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    return nameEs.includes(q) || nameEn.includes(q);
+    const alias  = (item.alias ?? '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return nameEs.includes(q) || nameEn.includes(q) || alias.includes(q);
   });
 
   const showEmpty = q.length > 0 && results.length === 0;
