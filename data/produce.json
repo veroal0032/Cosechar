@@ -1,0 +1,886 @@
+[
+  {
+    "nombre": { "es": "Naranja", "en": "Orange" },
+    "emoji": "🍊",
+    "tipo": "fruta",
+    "estacion": ["invierno", "otoño"],
+    "imagen": "https://images.unsplash.com/photo-1557800636-894a64c1696f?auto=format&fit=crop&w=400&q=80",
+    "calorias": 47,
+    "vitaminas": ["C", "B1"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Cítrico de temporada invernal, jugosa y dulce. Ideal para jugo o consumo directo.",
+      "en": "Winter citrus, juicy and sweet. Perfect for fresh juice or eating on its own."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de naranja", "en": "Fresh orange juice" }, "descripcion": { "es": "Clásico y lleno de vitamina C", "en": "Classic and packed with vitamin C" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de naranja y menta", "en": "Orange & mint salad" }, "descripcion": { "es": "Fresca, con miel y hojas de menta", "en": "Light and fresh with honey and mint" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Naranjas al caramelo", "en": "Caramelized oranges" }, "descripcion": { "es": "Postre elegante con almíbar dorado", "en": "Elegant dessert with golden syrup" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Mandarina", "en": "Tangerine" },
+    "emoji": "🍊",
+    "tipo": "fruta",
+    "estacion": ["invierno", "otoño"],
+    "imagen": "https://images.unsplash.com/photo-1611329646571-689ddf8bfee9?auto=format&fit=crop&w=400&q=80",
+    "calorias": 53,
+    "vitaminas": ["C", "B1"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Pequeña, dulce y fácil de pelar. El snack cítrico perfecto del invierno argentino.",
+      "en": "Small, sweet and easy to peel. The perfect citrus snack of the Argentine winter."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de mandarina", "en": "Tangerine juice" }, "descripcion": { "es": "Dulce y menos ácido que la naranja", "en": "Sweet and less tart than orange juice" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Yogur con mandarina y miel", "en": "Tangerine honey yogurt" }, "descripcion": { "es": "Desayuno cremoso con cítrico fresco", "en": "Creamy breakfast with fresh citrus" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Mermelada de mandarina", "en": "Tangerine marmalade" }, "descripcion": { "es": "Untada en tostadas, dulce y perfumada", "en": "Sweet and fragrant spread for toast" }, "tiempo": "45 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Pomelo", "en": "Grapefruit" },
+    "emoji": "🩷",
+    "tipo": "fruta",
+    "estacion": ["otoño", "invierno"],
+    "imagen": "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?auto=format&fit=crop&w=400&q=80",
+    "calorias": 42,
+    "vitaminas": ["C", "B1"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Cítrico grande y ácido, en variedades rosada y blanca. Rico en antioxidantes.",
+      "en": "Large and tart citrus, available in pink and white varieties. Rich in antioxidants."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de pomelo", "en": "Grapefruit juice" }, "descripcion": { "es": "Refrescante, ideal para el desayuno", "en": "Refreshing and great for breakfast" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de pomelo y palta", "en": "Grapefruit & avocado salad" }, "descripcion": { "es": "Contraste cremoso con vinagreta cítrica", "en": "Creamy contrast with citrus vinaigrette" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Granita de pomelo", "en": "Grapefruit granita" }, "descripcion": { "es": "Hielo raspado levemente dulce y ácido", "en": "Lightly sweet and tart shaved ice" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Kinoto", "en": "Kumquat" },
+    "alias": "Kumquat",
+    "emoji": "🍊",
+    "tipo": "fruta",
+    "estacion": ["invierno"],
+    "imagen": "https://images.unsplash.com/photo-1648551244859-1e797dc13fe6?auto=format&fit=crop&w=400&q=80",
+    "calorias": 71,
+    "vitaminas": ["C", "A"],
+    "minerales": ["Calcio", "Potasio"],
+    "descripcion_corta": {
+      "es": "Pequeño cítrico que se come entero, cáscara incluida. Dulce por fuera, ácido por dentro.",
+      "en": "Tiny citrus eaten whole, peel and all. Sweet on the outside, tart inside."
+    },
+    "recetas": [
+      { "nombre": { "es": "Mermelada de kinoto", "en": "Kumquat marmalade" }, "descripcion": { "es": "Brillante y ácida, perfecta para quesos", "en": "Bright and tangy, perfect with cheese" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Kinoto al brandy", "en": "Kumquats in brandy" }, "descripcion": { "es": "Conserva dulce, ideal para regalar", "en": "Sweet preserve, great as a gift" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Ensalada de kinoto y rúcula", "en": "Kumquat & arugula salad" }, "descripcion": { "es": "Agridulce con aceite de oliva", "en": "Sweet-tart with olive oil dressing" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Limón", "en": "Lemon" },
+    "alias": "Lima",
+    "emoji": "🍋",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=400&q=80",
+    "calorias": 29,
+    "vitaminas": ["C", "B6"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Indispensable en la cocina argentina. Se usa para aliñar ensaladas, pescados y bebidas.",
+      "en": "Indispensable in Argentine cooking. Used to dress salads, fish, and drinks."
+    },
+    "recetas": [
+      { "nombre": { "es": "Limonada casera", "en": "Homemade lemonade" }, "descripcion": { "es": "Refrescante con azúcar, limón y agua fría", "en": "Refreshing with sugar, lemon and cold water" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Tarta de limón", "en": "Lemon tart" }, "descripcion": { "es": "Crema ácida y dulce sobre masa crocante", "en": "Tart and sweet cream on crispy pastry" }, "tiempo": "50 min" },
+      { "nombre": { "es": "Aderezo de limón y aceite", "en": "Lemon olive oil dressing" }, "descripcion": { "es": "Clásico aliño para ensaladas y verduras", "en": "Classic dressing for salads and vegetables" }, "tiempo": "3 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Lima dulce", "en": "Sweet Lime" },
+    "emoji": "🍋",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1705925438535-09a67ff7563e?auto=format&fit=crop&w=400&q=80",
+    "calorias": 43,
+    "vitaminas": ["C", "B6"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Cítrico suave y dulce, menos ácido que el limón, de forma redonda. Se consume en jugos y macedonias de otoño.",
+      "en": "Mild and sweet citrus, less acidic than lemon with round shape. Used in juices and autumn fruit salads."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de lima dulce", "en": "Sweet lime juice" }, "descripcion": { "es": "Suave y refrescante, sin azúcar", "en": "Mild and refreshing, no sugar needed" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ceviche con lima dulce", "en": "Ceviche with sweet lime" }, "descripcion": { "es": "Suave, con cebolla y cilantro fresco", "en": "Mild, with onion and fresh coriander" }, "tiempo": "15 min" },
+      { "nombre": { "es": "Agua fresca de lima dulce", "en": "Sweet lime agua fresca" }, "descripcion": { "es": "Bebida natural con menta y jengibre", "en": "Natural drink with mint and ginger" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Granada", "en": "Pomegranate" },
+    "emoji": "❤️",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1580157508103-2a4e9fe8ed29?auto=format&fit=crop&w=400&q=80",
+    "calorias": 83,
+    "vitaminas": ["C", "K", "B5"],
+    "minerales": ["Potasio", "Cobre"],
+    "descripcion_corta": {
+      "es": "Llena de pequeñas semillas rojas y brillantes. Rica en antioxidantes, ideal en jugos y ensaladas.",
+      "en": "Packed with small ruby seeds. Rich in antioxidants, great in juices and salads."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de granada", "en": "Pomegranate juice" }, "descripcion": { "es": "Potente en antioxidantes, color vibrante", "en": "Antioxidant powerhouse, vibrant color" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de invierno con granada", "en": "Winter salad with pomegranate" }, "descripcion": { "es": "Con espinaca, nueces y vinagreta", "en": "With spinach, walnuts and vinaigrette" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Vinagreta de granada", "en": "Pomegranate vinaigrette" }, "descripcion": { "es": "Aderezo agridulce y elegante", "en": "Sweet-tart and elegant salad dressing" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Kiwi", "en": "Kiwi" },
+    "emoji": "🥝",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1585059895524-72359e06133a?auto=format&fit=crop&w=400&q=80",
+    "calorias": 61,
+    "vitaminas": ["C", "K", "E"],
+    "minerales": ["Potasio", "Cobre"],
+    "descripcion_corta": {
+      "es": "Acidito y lleno de vitamina C. Se produce en las provincias de Buenos Aires y Río Negro.",
+      "en": "Tangy and packed with vitamin C. Produced in Buenos Aires and Río Negro provinces."
+    },
+    "recetas": [
+      { "nombre": { "es": "Licuado de kiwi y banana", "en": "Kiwi banana smoothie" }, "descripcion": { "es": "Cremoso y lleno de vitaminas", "en": "Creamy and packed with vitamins" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de frutas con kiwi", "en": "Fruit salad with kiwi" }, "descripcion": { "es": "Colorida y refrescante con menta", "en": "Colorful and refreshing with mint" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Mermelada de kiwi", "en": "Kiwi jam" }, "descripcion": { "es": "Verde brillante, exótica y deliciosa", "en": "Bright green, exotic and delicious" }, "tiempo": "35 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Manzana", "en": "Apple" },
+    "emoji": "🍎",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=400&q=80",
+    "calorias": 52,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio"],
+    "descripcion_corta": {
+      "es": "El Alto Valle del Río Negro es la capital manzanera de Argentina. Hay docenas de variedades.",
+      "en": "The Alto Valle del Río Negro is Argentina's apple capital, with dozens of varieties."
+    },
+    "recetas": [
+      { "nombre": { "es": "Tarta de manzana", "en": "Apple tart" }, "descripcion": { "es": "Clásica con canela, perfecta al horno", "en": "Classic cinnamon apple tart, oven-baked" }, "tiempo": "60 min" },
+      { "nombre": { "es": "Compota de manzana", "en": "Applesauce" }, "descripcion": { "es": "Suave y dulce, para acompañar carnes", "en": "Smooth and sweet, pairs well with pork" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Jugo de manzana y jengibre", "en": "Apple ginger juice" }, "descripcion": { "es": "Energizante y digestivo, ideal en frío", "en": "Energizing and digestive, best served cold" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Pera", "en": "Pear" },
+    "emoji": "🍐",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1696426506268-00a41b06b956?auto=format&fit=crop&w=400&q=80",
+    "calorias": 57,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio", "Cobre"],
+    "descripcion_corta": {
+      "es": "Suave y jugosa cuando está madura. La variedad William es la más popular en Argentina.",
+      "en": "Soft and juicy when ripe. The William variety is the most popular in Argentina."
+    },
+    "recetas": [
+      { "nombre": { "es": "Peras al vino tinto", "en": "Pears poached in red wine" }, "descripcion": { "es": "Postre elegante con especias y canela", "en": "Elegant dessert with spices and cinnamon" }, "tiempo": "35 min" },
+      { "nombre": { "es": "Licuado de pera y jengibre", "en": "Pear ginger smoothie" }, "descripcion": { "es": "Digestivo y suavemente picante", "en": "Digestive and gently spicy" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Tarta de pera y almendras", "en": "Pear & almond tart" }, "descripcion": { "es": "Masa crocante con crema frangipane", "en": "Crisp pastry with frangipane cream" }, "tiempo": "55 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Caqui", "en": "Persimmon" },
+    "emoji": "🧡",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1652231594808-30cb8cb7b86a?auto=format&fit=crop&w=400&q=80",
+    "calorias": 70,
+    "vitaminas": ["A", "C", "B6"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Dulce y gelatinoso cuando está maduro. Sabor a miel con notas de canela, muy apreciado en otoño.",
+      "en": "Sweet and jelly-like when ripe. Honey-like flavor with cinnamon notes, cherished in autumn."
+    },
+    "recetas": [
+      { "nombre": { "es": "Caqui con yogur y miel", "en": "Persimmon with yogurt & honey" }, "descripcion": { "es": "Desayuno dulce y nutritivo de otoño", "en": "Sweet and nutritious autumn breakfast" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Mermelada de caqui", "en": "Persimmon jam" }, "descripcion": { "es": "Suave y muy dulce, para tostadas", "en": "Smooth and very sweet, great on toast" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Ensalada de caqui y nuez", "en": "Persimmon & walnut salad" }, "descripcion": { "es": "Con rúcula y vinagreta balsámica", "en": "With arugula and balsamic vinaigrette" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Palta", "en": "Avocado" },
+    "alias": "Aguacate",
+    "emoji": "🥑",
+    "tipo": "fruta",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=400&q=80",
+    "calorias": 160,
+    "vitaminas": ["K", "E", "B5"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Cremosa y nutritiva, cargada de grasas saludables. Se cultiva en el noroeste argentino.",
+      "en": "Creamy and nutritious, loaded with healthy fats. Grown in northwestern Argentina."
+    },
+    "recetas": [
+      { "nombre": { "es": "Guacamole casero", "en": "Homemade guacamole" }, "descripcion": { "es": "Con limón, cebolla y cilantro fresco", "en": "With lemon, onion and fresh coriander" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Tostadas con palta", "en": "Avocado toast" }, "descripcion": { "es": "Con huevo pochado y semillas", "en": "With poached egg and seeds" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Ensalada de palta y tomate", "en": "Avocado & tomato salad" }, "descripcion": { "es": "Con aceite de oliva y sal gruesa", "en": "With olive oil and coarse salt" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Frutilla", "en": "Strawberry" },
+    "alias": "Fresa",
+    "emoji": "🍓",
+    "tipo": "fruta",
+    "estacion": ["primavera"],
+    "imagen": "https://images.unsplash.com/photo-1685130050521-821d122f4915?auto=format&fit=crop&w=400&q=80",
+    "calorias": 32,
+    "vitaminas": ["C", "B9"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "La reina de la primavera. Perfecta para postres, licuados y mermeladas caseras.",
+      "en": "The queen of spring. Perfect for desserts, smoothies, and homemade jams."
+    },
+    "recetas": [
+      { "nombre": { "es": "Licuado de frutilla", "en": "Strawberry smoothie" }, "descripcion": { "es": "Con leche o yogur, dulce y cremoso", "en": "With milk or yogurt, sweet and creamy" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Mermelada de frutilla", "en": "Strawberry jam" }, "descripcion": { "es": "Casera, con fruta fresca y azúcar", "en": "Homemade with fresh fruit and sugar" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Pavlova con frutillas", "en": "Strawberry pavlova" }, "descripcion": { "es": "Merengue crujiente con crema y frutillas", "en": "Crisp meringue with cream and strawberries" }, "tiempo": "60 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Arándano", "en": "Blueberry" },
+    "emoji": "🫐",
+    "tipo": "fruta",
+    "estacion": ["primavera"],
+    "imagen": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80",
+    "calorias": 57,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Manganeso"],
+    "descripcion_corta": {
+      "es": "Argentina es exportador mundial de arándanos. Antioxidante y delicioso en desayunos y postres.",
+      "en": "Argentina is a world exporter of blueberries. Antioxidant-rich and great in breakfasts and desserts."
+    },
+    "recetas": [
+      { "nombre": { "es": "Muffins de arándanos", "en": "Blueberry muffins" }, "descripcion": { "es": "Esponjosos y llenos de fruta fresca", "en": "Fluffy and loaded with fresh berries" }, "tiempo": "35 min" },
+      { "nombre": { "es": "Smoothie bowl de arándanos", "en": "Blueberry smoothie bowl" }, "descripcion": { "es": "Con granola, banana y semillas de chía", "en": "With granola, banana and chia seeds" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Compota de arándanos", "en": "Blueberry compote" }, "descripcion": { "es": "Salsa rápida para panqueques y yogur", "en": "Quick sauce for pancakes and yogurt" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Sandía", "en": "Watermelon" },
+    "alias": "Patilla",
+    "emoji": "🍉",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1563114773-84221bd62daa?auto=format&fit=crop&w=800&q=80",
+    "calorias": 30,
+    "vitaminas": ["C", "A", "B6"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "La fruta del verano por excelencia. 92% agua, refrescante e hidratante en los días calurosos.",
+      "en": "The ultimate summer fruit. 92% water — refreshing and hydrating on hot days."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de sandía", "en": "Watermelon juice" }, "descripcion": { "es": "Pura hidratación, sin azúcar agregada", "en": "Pure hydration, no added sugar needed" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de sandía y feta", "en": "Watermelon feta salad" }, "descripcion": { "es": "Dulce y salado con menta fresca", "en": "Sweet and salty with fresh mint" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Granita de sandía", "en": "Watermelon granita" }, "descripcion": { "es": "Hielo raspado afrutado para el calor", "en": "Fruity shaved ice for the summer heat" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Melón", "en": "Melon" },
+    "emoji": "🍈",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1596273312170-6f83de8755f1?auto=format&fit=crop&w=800&q=80",
+    "calorias": 34,
+    "vitaminas": ["C", "A", "B6"],
+    "minerales": ["Potasio", "Folato"],
+    "descripcion_corta": {
+      "es": "Suave y perfumado, se cultiva en las zonas áridas del norte y el Cuyo argentino.",
+      "en": "Soft and fragrant, grown in the arid zones of northern Argentina and the Cuyo region."
+    },
+    "recetas": [
+      { "nombre": { "es": "Smoothie de melón", "en": "Melon smoothie" }, "descripcion": { "es": "Suave y dulce, con yogur o leche", "en": "Soft and sweet, with yogurt or milk" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Melón con jamón crudo", "en": "Melon with prosciutto" }, "descripcion": { "es": "Clásico antipasto dulce y salado", "en": "Classic antipasto sweet and salty combo" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Sopa fría de melón", "en": "Chilled melon soup" }, "descripcion": { "es": "Gazpacho dulce con jengibre y limón", "en": "Sweet gazpacho with ginger and lemon" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Uva", "en": "Grape" },
+    "emoji": "🍇",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://plus.unsplash.com/premium_photo-1666270423730-9af384b9cb0f?auto=format&fit=crop&w=400&q=80",
+    "calorias": 69,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Argentina es uno de los principales productores del mundo. Variedades de mesa y vinificación.",
+      "en": "Argentina is one of the world's top producers. Table and wine varieties abound."
+    },
+    "recetas": [
+      { "nombre": { "es": "Jugo de uva casero", "en": "Homemade grape juice" }, "descripcion": { "es": "Natural y muy dulce, sin conservantes", "en": "Natural and very sweet, no preservatives" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Ensalada de uva y nuez", "en": "Grape & walnut salad" }, "descripcion": { "es": "Con rúcula, queso y vinagreta balsámica", "en": "With arugula, cheese and balsamic dressing" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Mermelada de uva", "en": "Grape jam" }, "descripcion": { "es": "Intensa y perfecta para quesos y tostadas", "en": "Rich and perfect with cheese and toast" }, "tiempo": "45 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Durazno", "en": "Peach" },
+    "emoji": "🍑",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1642372849486-f88b963cb734?auto=format&fit=crop&w=400&q=80",
+    "calorias": 39,
+    "vitaminas": ["C", "A", "B3"],
+    "minerales": ["Potasio", "Fósforo"],
+    "descripcion_corta": {
+      "es": "Fruta estival jugosa y aromática. Se cultiva principalmente en Mendoza y San Juan.",
+      "en": "Juicy and aromatic summer fruit. Mainly grown in Mendoza and San Juan provinces."
+    },
+    "recetas": [
+      { "nombre": { "es": "Duraznos al almíbar", "en": "Peaches in syrup" }, "descripcion": { "es": "Conserva casera dulce, ideal con helado", "en": "Sweet homemade preserve, great with ice cream" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Smoothie de durazno y vainilla", "en": "Peach vanilla smoothie" }, "descripcion": { "es": "Cremoso y fragante, perfecto en verano", "en": "Creamy and fragrant, perfect for summer" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Tarta de durazno", "en": "Peach tart" }, "descripcion": { "es": "Masa mantecosa con crema de almendras", "en": "Buttery pastry with almond cream" }, "tiempo": "55 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Pelón", "en": "Flat Peach" },
+    "emoji": "🍑",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1614816769075-9a6279242273?auto=format&fit=crop&w=400&q=80",
+    "calorias": 44,
+    "vitaminas": ["C", "A", "B3"],
+    "minerales": ["Potasio", "Fósforo"],
+    "descripcion_corta": {
+      "es": "Pariente del durazno, de forma achatada y carne muy dulce. Muy popular en Mendoza y San Juan.",
+      "en": "Flat, disc-shaped cousin of the peach with very sweet flesh. Popular in Mendoza and San Juan."
+    },
+    "recetas": [
+      { "nombre": { "es": "Pelones al horno con canela", "en": "Baked flat peaches with cinnamon" }, "descripcion": { "es": "Con azúcar mascabo y manteca", "en": "With brown sugar and butter" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Licuado de pelón y vainilla", "en": "Flat peach vanilla smoothie" }, "descripcion": { "es": "Dulce y cremoso, sabor a verano", "en": "Sweet and creamy, pure summer taste" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de pelón y mozzarella", "en": "Flat peach & mozzarella salad" }, "descripcion": { "es": "Con albahaca y aceite de oliva", "en": "With fresh basil and olive oil" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Ciruela", "en": "Plum" },
+    "emoji": "💜",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1569394679973-c56925f9d30d?auto=format&fit=crop&w=400&q=80",
+    "calorias": 46,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio", "Cobre"],
+    "descripcion_corta": {
+      "es": "Dulce y ligeramente ácida. Excelente para comer sola, hacer dulces o secarla al sol.",
+      "en": "Sweet and slightly tart. Excellent fresh, for jams, or sun-dried as prunes."
+    },
+    "recetas": [
+      { "nombre": { "es": "Dulce de ciruela", "en": "Plum jam" }, "descripcion": { "es": "Intenso y aromático, ideal para untar", "en": "Rich and aromatic, perfect to spread" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Ciruelas al vino tinto", "en": "Plums in red wine" }, "descripcion": { "es": "Postre sofisticado con especias", "en": "Sophisticated dessert with warm spices" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Licuado de ciruela", "en": "Plum smoothie" }, "descripcion": { "es": "Antioxidante y levemente ácido", "en": "Antioxidant-rich and lightly tart" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Mango", "en": "Mango" },
+    "emoji": "🥭",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=400&q=80",
+    "calorias": 60,
+    "vitaminas": ["C", "A", "B6"],
+    "minerales": ["Potasio", "Cobre"],
+    "descripcion_corta": {
+      "es": "Tropical, dulce y aromático. Se cultiva en el noroeste argentino (Salta, Jujuy, Misiones).",
+      "en": "Tropical, sweet and aromatic. Grown in northwestern Argentina (Salta, Jujuy, Misiones)."
+    },
+    "recetas": [
+      { "nombre": { "es": "Batido de mango y coco", "en": "Mango coconut smoothie" }, "descripcion": { "es": "Tropical y cremoso, sabor a verano", "en": "Tropical and creamy, pure summer flavor" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Salsa de mango para pescado", "en": "Mango salsa for fish" }, "descripcion": { "es": "Dulce y picante, con cebolla y limón", "en": "Sweet and spicy, with onion and lime" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Helado de mango", "en": "Mango sorbet" }, "descripcion": { "es": "Sin lácteos, intensamente tropical", "en": "Dairy-free and intensely tropical" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Maracuyá", "en": "Passion Fruit" },
+    "alias": "Parchita",
+    "emoji": "💛",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://plus.unsplash.com/premium_photo-1723294490531-adb186f8e319?auto=format&fit=crop&w=400&q=80",
+    "calorias": 97,
+    "vitaminas": ["C", "A", "B2"],
+    "minerales": ["Potasio", "Fósforo"],
+    "descripcion_corta": {
+      "es": "Tropical con aroma intenso y sabor agridulce. Se cultiva en el nordeste argentino, Misiones y Corrientes.",
+      "en": "Tropical with intense aroma and sweet-tart flavor. Grown in northeastern Argentina, Misiones and Corrientes."
+    },
+    "recetas": [
+      { "nombre": { "es": "Mousse de maracuyá", "en": "Passion fruit mousse" }, "descripcion": { "es": "Cremosa y ácida, postre tropical liviano", "en": "Creamy and tangy, light tropical dessert" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Jugo de maracuyá", "en": "Passion fruit juice" }, "descripcion": { "es": "Refrescante con agua y azúcar, muy aromático", "en": "Refreshing with water and sugar, very fragrant" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Cheesecake de maracuyá", "en": "Passion fruit cheesecake" }, "descripcion": { "es": "Con base de galleta y cobertura ácida", "en": "Cookie base with tangy passion fruit topping" }, "tiempo": "40 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Higo", "en": "Fig" },
+    "emoji": "💜",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1635341814161-d696d538542c?auto=format&fit=crop&w=400&q=80",
+    "calorias": 74,
+    "vitaminas": ["C", "B6"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Dulce y texturado, se come fresco o seco. Los higos frescos son un lujo del verano.",
+      "en": "Sweet and textured, eaten fresh or dried. Fresh figs are a true summer luxury."
+    },
+    "recetas": [
+      { "nombre": { "es": "Higos con miel y queso azul", "en": "Figs with honey & blue cheese" }, "descripcion": { "es": "Entrada gourmet lista en minutos", "en": "Gourmet appetizer ready in minutes" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Mermelada de higo", "en": "Fig jam" }, "descripcion": { "es": "Densa y aromática, ideal para tabla de quesos", "en": "Thick and aromatic, ideal for cheese boards" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Ensalada de higos y rúcula", "en": "Fig & arugula salad" }, "descripcion": { "es": "Con parmesano y vinagreta de balsámico", "en": "With parmesan and balsamic vinaigrette" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Papaya", "en": "Papaya" },
+    "alias": "Lechosa",
+    "emoji": "🧡",
+    "tipo": "fruta",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?auto=format&fit=crop&w=400&q=80",
+    "calorias": 43,
+    "vitaminas": ["C", "A", "B9"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Conocida también como mamón en el nordeste argentino. Tropical, dulce y muy digestiva.",
+      "en": "Also called mamón in northeastern Argentina. Tropical, sweet and highly digestive."
+    },
+    "recetas": [
+      { "nombre": { "es": "Licuado de papaya y naranja", "en": "Papaya orange smoothie" }, "descripcion": { "es": "Tropical y vitamínico, digestivo natural", "en": "Tropical and vitamin-rich, natural digestive" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Ensalada de papaya con limón", "en": "Papaya salad with lime" }, "descripcion": { "es": "Con jengibre rallado y semillas de chía", "en": "With grated ginger and chia seeds" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Batido de papaya y coco", "en": "Papaya coconut shake" }, "descripcion": { "es": "Cremoso y tropical, ideal para el desayuno", "en": "Creamy and tropical, perfect for breakfast" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Banana", "en": "Banana" },
+    "alias": "Cambur",
+    "emoji": "🍌",
+    "tipo": "fruta",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1543218024-57a70143c369?auto=format&fit=crop&w=400&q=80",
+    "calorias": 89,
+    "vitaminas": ["C", "B6", "B5"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Disponible todo el año, se produce en el norte de Argentina y países vecinos.",
+      "en": "Available year-round, produced in northern Argentina and imported from neighboring countries."
+    },
+    "recetas": [
+      { "nombre": { "es": "Pan de banana", "en": "Banana bread" }, "descripcion": { "es": "Húmedo y dulce, ideal con manteca", "en": "Moist and sweet, great with butter" }, "tiempo": "60 min" },
+      { "nombre": { "es": "Licuado de banana y avena", "en": "Banana oat smoothie" }, "descripcion": { "es": "Energizante y saciante para el desayuno", "en": "Energizing and filling breakfast drink" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Banana split casero", "en": "Homemade banana split" }, "descripcion": { "es": "Con helado, chocolate y crema chantilly", "en": "With ice cream, chocolate and whipped cream" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Tomate", "en": "Tomato" },
+    "emoji": "🍅",
+    "tipo": "verdura",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1578048745930-3218e2acb823?auto=format&fit=crop&w=400&q=80",
+    "calorias": 18,
+    "vitaminas": ["C", "A", "K"],
+    "minerales": ["Potasio"],
+    "descripcion_corta": {
+      "es": "Base de la cocina argentina. El tomate de temporada tiene un sabor incomparable al de invernadero.",
+      "en": "Foundation of Argentine cooking. A seasonal tomato has incomparably better flavor than greenhouse-grown."
+    },
+    "recetas": [
+      { "nombre": { "es": "Salsa de tomate casera", "en": "Homemade tomato sauce" }, "descripcion": { "es": "Base para pastas, pizzas y guisos", "en": "Base for pasta, pizza and stews" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Ensalada caprese", "en": "Caprese salad" }, "descripcion": { "es": "Con mozzarella fresca y albahaca", "en": "With fresh mozzarella and basil" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Tostadas con tomate y ajo", "en": "Tomato & garlic toast" }, "descripcion": { "es": "Pan tostado frotado con ajo y tomate", "en": "Toasted bread rubbed with garlic and tomato" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Lechuga", "en": "Lettuce" },
+    "emoji": "🥬",
+    "tipo": "verdura",
+    "estacion": ["primavera", "verano"],
+    "imagen": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=400&q=80",
+    "calorias": 15,
+    "vitaminas": ["A", "C", "K"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Base de las ensaladas argentinas. La variedad criolla es la más popular en los mercados locales.",
+      "en": "Base of Argentine salads. The criolla variety is the most popular in local markets."
+    },
+    "recetas": [
+      { "nombre": { "es": "Ensalada mixta", "en": "Mixed green salad" }, "descripcion": { "es": "Con tomate, zanahoria y aderezo casero", "en": "With tomato, carrot and homemade dressing" }, "tiempo": "5 min" },
+      { "nombre": { "es": "César con pollo", "en": "Chicken Caesar salad" }, "descripcion": { "es": "Con salsa César, crutones y parmesano", "en": "With Caesar dressing, croutons and parmesan" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Wraps de lechuga", "en": "Lettuce wraps" }, "descripcion": { "es": "Rellenos de pollo o verduras salteadas", "en": "Filled with chicken or stir-fried vegetables" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Arveja", "en": "Peas" },
+    "alias": "Guisantes",
+    "emoji": "🫛",
+    "tipo": "verdura",
+    "estacion": ["primavera"],
+    "imagen": "https://images.unsplash.com/photo-1651793440182-090126813ac0?auto=format&fit=crop&w=400&q=80",
+    "calorias": 81,
+    "vitaminas": ["C", "K", "B1"],
+    "minerales": ["Manganeso", "Fósforo"],
+    "descripcion_corta": {
+      "es": "La petit pois argentina, dulce y tierna. Protagonista del arroz con arvejas y el guiso.",
+      "en": "Sweet and tender Argentine petit pois. Stars in rice with peas and in hearty stews."
+    },
+    "recetas": [
+      { "nombre": { "es": "Arroz con arvejas", "en": "Rice with peas" }, "descripcion": { "es": "Plato simple y reconfortante de todos los días", "en": "Simple and comforting everyday dish" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Sopa de arvejas", "en": "Pea soup" }, "descripcion": { "es": "Cremosa y verde, con menta fresca", "en": "Creamy and green, with fresh mint" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Arvejas salteadas con panceta", "en": "Peas sautéed with bacon" }, "descripcion": { "es": "Clásica guarnición dulce y ahumada", "en": "Classic sweet and smoky side dish" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Chaucha", "en": "Green Beans" },
+    "alias": "Vainita",
+    "emoji": "🫛",
+    "tipo": "verdura",
+    "estacion": ["primavera"],
+    "imagen": "https://images.unsplash.com/photo-1574963835594-61eede2070dc?auto=format&fit=crop&w=400&q=80",
+    "calorias": 31,
+    "vitaminas": ["C", "K", "B1"],
+    "minerales": ["Manganeso", "Hierro"],
+    "descripcion_corta": {
+      "es": "El poroto verde tierno, conocido como chaucha en Argentina. Se saltea o hierve con aceite de oliva.",
+      "en": "Tender green beans, called chaucha in Argentina. Sautéed or boiled with olive oil."
+    },
+    "recetas": [
+      { "nombre": { "es": "Chauchas salteadas con ajo", "en": "Garlic sautéed green beans" }, "descripcion": { "es": "Rápidas, crujientes y llenas de sabor", "en": "Quick, crisp and full of flavor" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Ensalada de chauchas y papa", "en": "Green bean & potato salad" }, "descripcion": { "es": "Con vinagreta de mostaza Dijon", "en": "With Dijon mustard vinaigrette" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Chauchas al vapor con limón", "en": "Steamed green beans with lemon" }, "descripcion": { "es": "Guarnición saludable y elegante", "en": "Healthy and elegant side dish" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Choclo", "en": "Corn" },
+    "alias": "Maíz",
+    "emoji": "🌽",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1634467524884-897d0af5e104?auto=format&fit=crop&w=400&q=80",
+    "calorias": 86,
+    "vitaminas": ["B1", "B5", "C"],
+    "minerales": ["Fósforo", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Maíz tierno que se come hervido o asado. Ingrediente esencial del locro y la humita.",
+      "en": "Tender corn eaten boiled or grilled. Essential ingredient in locro stew and humita."
+    },
+    "recetas": [
+      { "nombre": { "es": "Humita en chala", "en": "Corn humita" }, "descripcion": { "es": "Pasta de choclo cocida en su hoja", "en": "Corn paste cooked in its own husk" }, "tiempo": "60 min" },
+      { "nombre": { "es": "Sopa de choclo", "en": "Corn soup" }, "descripcion": { "es": "Cremosa y reconfortante, con crema", "en": "Creamy and comforting with a touch of cream" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Choclo asado con manteca", "en": "Grilled corn with butter" }, "descripcion": { "es": "Clásico de asado, con limón y sal", "en": "BBQ classic, with lemon and salt" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Apio", "en": "Celery" },
+    "emoji": "🌿",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://plus.unsplash.com/premium_photo-1700773416772-50a83a730f23?auto=format&fit=crop&w=400&q=80",
+    "calorias": 16,
+    "vitaminas": ["K", "A", "C"],
+    "minerales": ["Potasio"],
+    "descripcion_corta": {
+      "es": "Crujiente y aromático, fundamental en el caldo casero. También se consume crudo con dips.",
+      "en": "Crunchy and aromatic, fundamental in homemade broth. Also eaten raw with dips."
+    },
+    "recetas": [
+      { "nombre": { "es": "Caldo de verduras casero", "en": "Homemade vegetable broth" }, "descripcion": { "es": "Base aromática para sopas y risottos", "en": "Aromatic base for soups and risottos" }, "tiempo": "45 min" },
+      { "nombre": { "es": "Ensalada Waldorf", "en": "Waldorf salad" }, "descripcion": { "es": "Con manzana, nuez y mayonesa liviana", "en": "With apple, walnut and light mayo" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Apio con salsa de queso", "en": "Celery with cheese dip" }, "descripcion": { "es": "Snack crujiente y proteico", "en": "Crunchy and protein-rich snack" }, "tiempo": "5 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Acelga", "en": "Swiss Chard" },
+    "emoji": "🥬",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1708798534031-3711ec8cc16e?auto=format&fit=crop&w=400&q=80",
+    "calorias": 19,
+    "vitaminas": ["A", "C", "K"],
+    "minerales": ["Magnesio", "Potasio"],
+    "descripcion_corta": {
+      "es": "Muy común en la cocina hogareña argentina. Se usa en tartas, guisos y hervida con aceite.",
+      "en": "Very common in Argentine home cooking. Used in tarts, stews, and sautéed with olive oil."
+    },
+    "recetas": [
+      { "nombre": { "es": "Tarta de acelga", "en": "Swiss chard tart" }, "descripcion": { "es": "Con huevo y queso, casera y económica", "en": "With egg and cheese, homey and affordable" }, "tiempo": "50 min" },
+      { "nombre": { "es": "Acelga rehogada con ajo", "en": "Garlic-braised swiss chard" }, "descripcion": { "es": "Con aceite de oliva y pizca de sal", "en": "With olive oil and a pinch of salt" }, "tiempo": "15 min" },
+      { "nombre": { "es": "Relleno de acelga para empanadas", "en": "Chard empanada filling" }, "descripcion": { "es": "Con cebolla y huevo duro, muy sabroso", "en": "With onion and hard-boiled egg, very tasty" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Remolacha", "en": "Beetroot" },
+    "emoji": "💜",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1667980970854-a74254e41521?auto=format&fit=crop&w=400&q=80",
+    "calorias": 43,
+    "vitaminas": ["B9", "C", "B6"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Color intenso y sabor dulce terroso. Muy usada en ensaladas cocidas y jugos detox en Argentina.",
+      "en": "Deep color and earthy-sweet flavor. Widely used in cooked salads and detox juices in Argentina."
+    },
+    "recetas": [
+      { "nombre": { "es": "Ensalada de remolacha cocida", "en": "Cooked beet salad" }, "descripcion": { "es": "Con cebolla, aceite y vinagre de manzana", "en": "With onion, oil and apple cider vinegar" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Jugo detox de remolacha", "en": "Beet detox juice" }, "descripcion": { "es": "Con zanahoria, manzana y jengibre", "en": "With carrot, apple and ginger" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Hummus de remolacha", "en": "Beet hummus" }, "descripcion": { "es": "Cremoso, colorido y muy saludable", "en": "Creamy, colorful and very healthy" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Pimiento", "en": "Bell Pepper" },
+    "emoji": "🫑",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=400&q=80",
+    "calorias": 31,
+    "vitaminas": ["C", "B6", "A"],
+    "minerales": ["Potasio", "Folato"],
+    "descripcion_corta": {
+      "es": "Rojo, verde o amarillo. El morrón es esencial en el chimichurri y los guisos.",
+      "en": "Red, green or yellow. The sweet pepper is essential in chimichurri and Argentine stews."
+    },
+    "recetas": [
+      { "nombre": { "es": "Morrones asados", "en": "Roasted peppers" }, "descripcion": { "es": "Con ajo y aceite de oliva, antipasto clásico", "en": "With garlic and olive oil, classic antipasto" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Peperonata", "en": "Peperonata" }, "descripcion": { "es": "Estofado de morrones al estilo italiano", "en": "Italian-style braised sweet peppers" }, "tiempo": "35 min" },
+      { "nombre": { "es": "Chimichurri con morrón", "en": "Chimichurri with pepper" }, "descripcion": { "es": "Salsa clásica argentina para asado", "en": "Classic Argentine sauce for grilled meats" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Berenjena", "en": "Eggplant" },
+    "emoji": "🍆",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1692958208966-9e7bbf3cd12f?auto=format&fit=crop&w=400&q=80",
+    "calorias": 25,
+    "vitaminas": ["B1", "B6", "C"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Ideal para el escabeche y al horno. Muy usada en la cocina de las comunidades italianas de Argentina.",
+      "en": "Great for pickling and roasting. Widely used in the Italian-Argentine community's cooking."
+    },
+    "recetas": [
+      { "nombre": { "es": "Berenjena al escabeche", "en": "Pickled eggplant" }, "descripcion": { "es": "Conserva casera con ajo y orégano", "en": "Homemade preserve with garlic and oregano" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Berenjenas a la parmesana", "en": "Eggplant parmigiana" }, "descripcion": { "es": "Con salsa de tomate y mozzarella gratinada", "en": "With tomato sauce and melted mozzarella" }, "tiempo": "50 min" },
+      { "nombre": { "es": "Berenjena rellena", "en": "Stuffed eggplant" }, "descripcion": { "es": "Con verduras y queso, al horno", "en": "Stuffed with veggies and cheese, oven-baked" }, "tiempo": "45 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Zapallito", "en": "Summer Squash" },
+    "emoji": "💚",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://plus.unsplash.com/premium_photo-1668618307531-d87d9bbd6d53?auto=format&fit=crop&w=400&q=80",
+    "calorias": 17,
+    "vitaminas": ["C", "B6", "A"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Pequeño y redondo, el zapallito de tronco es un clásico de la cocina argentina de verano.",
+      "en": "Small and round, the Argentine summer squash is a summer cooking classic."
+    },
+    "recetas": [
+      { "nombre": { "es": "Zapallitos rellenos", "en": "Stuffed summer squash" }, "descripcion": { "es": "Con arroz, queso y hierbas, al horno", "en": "With rice, cheese and herbs, oven-baked" }, "tiempo": "40 min" },
+      { "nombre": { "es": "Tortilla de zapallito", "en": "Summer squash omelette" }, "descripcion": { "es": "Con huevo y cebolla, clásica argentina", "en": "With egg and onion, Argentine classic" }, "tiempo": "20 min" },
+      { "nombre": { "es": "Zapallitos salteados con ajo", "en": "Garlic sautéed squash" }, "descripcion": { "es": "Guarnición rápida y sabrosa de verano", "en": "Quick and tasty summer side dish" }, "tiempo": "10 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Zucchini", "en": "Zucchini" },
+    "alias": "Calabacín",
+    "emoji": "🥒",
+    "tipo": "verdura",
+    "estacion": ["verano"],
+    "imagen": "https://images.unsplash.com/photo-1691480291894-75229c2bfd44?auto=format&fit=crop&w=400&q=80",
+    "calorias": 17,
+    "vitaminas": ["C", "B6", "A"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Zapallito largo de origen italiano. Muy versátil: se puede saltear, rellenar o hacer fideos.",
+      "en": "Italian-origin summer squash. Very versatile: sauté it, stuff it, or spiralize into noodles."
+    },
+    "recetas": [
+      { "nombre": { "es": "Zucchini grillado con hierbas", "en": "Grilled zucchini with herbs" }, "descripcion": { "es": "Guarnición de verano rápida y sabrosa", "en": "Quick and tasty summer side dish" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Fideos de zucchini", "en": "Zucchini noodles" }, "descripcion": { "es": "Con pesto o salsa de tomate, sin gluten", "en": "With pesto or tomato sauce, gluten-free" }, "tiempo": "15 min" },
+      { "nombre": { "es": "Zucchini relleno de arroz", "en": "Rice-stuffed zucchini" }, "descripcion": { "es": "Con queso gratinado, plato completo", "en": "Gratinéed with cheese, a full meal" }, "tiempo": "40 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Brócoli", "en": "Broccoli" },
+    "emoji": "🥦",
+    "tipo": "verdura",
+    "estacion": ["otoño", "invierno"],
+    "imagen": "https://plus.unsplash.com/premium_photo-1702403157830-9df749dc6c1e?auto=format&fit=crop&w=400&q=80",
+    "calorias": 34,
+    "vitaminas": ["C", "K", "B9"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Crucífera antioxidante y nutritiva. Al vapor o salteado con ajo, un clásico de las mesas argentinas.",
+      "en": "Antioxidant-rich crucifer. Steamed or sautéed with garlic, a staple at Argentine tables."
+    },
+    "recetas": [
+      { "nombre": { "es": "Brócoli al vapor con limón", "en": "Steamed broccoli with lemon" }, "descripcion": { "es": "Guarnición rápida, saludable y luminosa", "en": "Quick, healthy and bright side dish" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Salteado de brócoli con ajo", "en": "Garlic broccoli stir-fry" }, "descripcion": { "es": "Con aceite y ají molido, al wok", "en": "With olive oil and chili flakes, wok-style" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Sopa de brócoli y queso", "en": "Broccoli cheese soup" }, "descripcion": { "es": "Cremosa y reconfortante en invierno", "en": "Creamy and comforting in winter" }, "tiempo": "25 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Coliflor", "en": "Cauliflower" },
+    "emoji": "🤍",
+    "tipo": "verdura",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1566842600175-97dca489844f?auto=format&fit=crop&w=400&q=80",
+    "calorias": 25,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio", "Folato"],
+    "descripcion_corta": {
+      "es": "Versátil y suave, se puede comer cruda, hervida o al horno. Muy apreciada en otoño.",
+      "en": "Versatile and mild, eaten raw, boiled, or roasted. Greatly appreciated during the cold season."
+    },
+    "recetas": [
+      { "nombre": { "es": "Coliflor al horno con cúrcuma", "en": "Turmeric roasted cauliflower" }, "descripcion": { "es": "Dorada y especiada, con yogur de menta", "en": "Golden and spiced, with mint yogurt" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Arroz de coliflor", "en": "Cauliflower rice" }, "descripcion": { "es": "Bajo en carbohidratos, muy versátil", "en": "Low-carb and incredibly versatile" }, "tiempo": "15 min" },
+      { "nombre": { "es": "Sopa de coliflor y puerro", "en": "Cauliflower leek soup" }, "descripcion": { "es": "Aterciopelada y suave, perfecta en frío", "en": "Silky and mild, perfect in cold weather" }, "tiempo": "25 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Repollo", "en": "Cabbage" },
+    "emoji": "🥬",
+    "tipo": "verdura",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1748118869323-73769eab2f24?auto=format&fit=crop&w=400&q=80",
+    "calorias": 25,
+    "vitaminas": ["C", "K", "B6"],
+    "minerales": ["Potasio", "Calcio"],
+    "descripcion_corta": {
+      "es": "Barato y nutritivo, fundamental en el puchero. También se usa en ensaladas y rellenos.",
+      "en": "Cheap and nutritious, essential in Argentine puchero stew. Also used in salads and stuffings."
+    },
+    "recetas": [
+      { "nombre": { "es": "Ensalada de repollo (coleslaw)", "en": "Coleslaw" }, "descripcion": { "es": "Crujiente con mayonesa y zanahoria", "en": "Crunchy with mayo and carrot" }, "tiempo": "10 min" },
+      { "nombre": { "es": "Repollo relleno", "en": "Stuffed cabbage rolls" }, "descripcion": { "es": "Con carne y arroz en salsa de tomate", "en": "With meat and rice in tomato sauce" }, "tiempo": "60 min" },
+      { "nombre": { "es": "Repollo salteado con panceta", "en": "Sautéed cabbage with bacon" }, "descripcion": { "es": "Guarnición rústica y muy sabrosa", "en": "Rustic and very tasty side dish" }, "tiempo": "15 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Zanahoria", "en": "Carrot" },
+    "emoji": "🥕",
+    "tipo": "verdura",
+    "estacion": ["otoño"],
+    "imagen": "https://images.unsplash.com/photo-1601980605894-d2cd776749a5?auto=format&fit=crop&w=400&q=80",
+    "calorias": 41,
+    "vitaminas": ["A", "K", "B6"],
+    "minerales": ["Potasio"],
+    "descripcion_corta": {
+      "es": "Rica en betacaroteno, disponible casi todo el año. Fundamental en guisos, pucheros y ensaladas.",
+      "en": "Rich in beta-carotene, available almost year-round. Essential in stews, soups, and grated salads."
+    },
+    "recetas": [
+      { "nombre": { "es": "Ensalada de zanahoria rallada", "en": "Grated carrot salad" }, "descripcion": { "es": "Con limón, aceite y perejil fresco", "en": "With lemon, olive oil and fresh parsley" }, "tiempo": "5 min" },
+      { "nombre": { "es": "Sopa de zanahoria y jengibre", "en": "Carrot ginger soup" }, "descripcion": { "es": "Cremosa y reconfortante en invierno", "en": "Creamy and warming for winter days" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Zanahorias glaseadas con miel", "en": "Honey glazed carrots" }, "descripcion": { "es": "Dulces y brillantes, guarnición elegante", "en": "Sweet and glossy, an elegant side dish" }, "tiempo": "20 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Zapallo", "en": "Pumpkin" },
+    "alias": "Auyama",
+    "emoji": "🎃",
+    "tipo": "verdura",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1598704710527-10b309465769?auto=format&fit=crop&w=400&q=80",
+    "calorias": 26,
+    "vitaminas": ["A", "C", "B6"],
+    "minerales": ["Potasio", "Magnesio"],
+    "descripcion_corta": {
+      "es": "Ingrediente clave del locro y el puré. El zapallo anco es el más usado en la cocina argentina.",
+      "en": "Key ingredient in locro stew and purée. The zapallo anco variety is the most used in Argentine cooking."
+    },
+    "recetas": [
+      { "nombre": { "es": "Puré de zapallo", "en": "Pumpkin purée" }, "descripcion": { "es": "Cremoso y dulce, ideal para guarnición", "en": "Creamy and sweet, perfect as a side dish" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Sopa de zapallo", "en": "Pumpkin soup" }, "descripcion": { "es": "Aterciopelada con jengibre y crema", "en": "Velvety with ginger and cream" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Locro argentino", "en": "Argentine locro stew" }, "descripcion": { "es": "Guiso invernal con maíz y carnes", "en": "Winter stew with corn, beans and meats" }, "tiempo": "120 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Papa", "en": "Potato" },
+    "emoji": "🥔",
+    "tipo": "verdura",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=400&q=80",
+    "calorias": 77,
+    "vitaminas": ["C", "B6", "B3"],
+    "minerales": ["Potasio", "Fósforo"],
+    "descripcion_corta": {
+      "es": "El tubérculo más consumido en Argentina. Base del puré, las papas fritas y el guiso.",
+      "en": "The most consumed tuber in Argentina. Base of mashed potatoes, french fries, and stews."
+    },
+    "recetas": [
+      { "nombre": { "es": "Puré de papas", "en": "Mashed potatoes" }, "descripcion": { "es": "Cremoso con manteca y leche caliente", "en": "Creamy with butter and warm milk" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Tortilla española", "en": "Spanish omelette" }, "descripcion": { "es": "Con papa y cebolla, clásico de bodegón", "en": "With potato and onion, a bodega classic" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Papas al horno con romero", "en": "Rosemary roasted potatoes" }, "descripcion": { "es": "Crocantes por fuera, tiernas por dentro", "en": "Crispy outside, fluffy and tender inside" }, "tiempo": "40 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Cebolla", "en": "Onion" },
+    "emoji": "🧅",
+    "tipo": "verdura",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?auto=format&fit=crop&w=400&q=80",
+    "calorias": 40,
+    "vitaminas": ["C", "B6"],
+    "minerales": ["Potasio"],
+    "descripcion_corta": {
+      "es": "Aromática y esencial en todo guiso o sofrito. La cebolla morada es popular en ensaladas frescas.",
+      "en": "Aromatic and essential in every stew or sofrito. Red onion is popular in fresh salads."
+    },
+    "recetas": [
+      { "nombre": { "es": "Cebolla caramelizada", "en": "Caramelized onions" }, "descripcion": { "es": "Dulce y profunda, para pizzas y sándwiches", "en": "Sweet and rich, for pizzas and sandwiches" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Sopa de cebolla gratinada", "en": "Gratinéed onion soup" }, "descripcion": { "es": "Con costra de queso y pan crujiente", "en": "With cheese crust and crusty bread" }, "tiempo": "45 min" },
+      { "nombre": { "es": "Cebollas rellenas al horno", "en": "Oven-baked stuffed onions" }, "descripcion": { "es": "Con arroz, queso y hierbas frescas", "en": "With rice, cheese and fresh herbs" }, "tiempo": "50 min" }
+    ]
+  },
+  {
+    "nombre": { "es": "Mandioca", "en": "Cassava" },
+    "alias": "Yuca",
+    "emoji": "🤎",
+    "tipo": "verdura",
+    "estacion": ["verano", "otoño", "invierno", "primavera"],
+    "imagen": "https://images.unsplash.com/photo-1757283961570-682154747d9c?auto=format&fit=crop&w=400&q=80",
+    "calorias": 160,
+    "vitaminas": ["C", "B1", "B6"],
+    "minerales": ["Potasio", "Manganeso"],
+    "descripcion_corta": {
+      "es": "Raíz feculenta fundamental en el nordeste argentino. Hervida, frita o en chipa, es un básico regional.",
+      "en": "Starchy root essential in northeastern Argentina. Boiled, fried or in chipa, it's a regional staple."
+    },
+    "recetas": [
+      { "nombre": { "es": "Mandioca frita", "en": "Fried cassava" }, "descripcion": { "es": "Crocante por fuera, tierna por dentro", "en": "Crispy outside, fluffy and tender inside" }, "tiempo": "25 min" },
+      { "nombre": { "es": "Chipa", "en": "Chipa" }, "descripcion": { "es": "Pan de almidón de mandioca y queso", "en": "Cassava starch and cheese bread rolls" }, "tiempo": "30 min" },
+      { "nombre": { "es": "Sopa paraguaya", "en": "Paraguayan soup" }, "descripcion": { "es": "Budín de maíz y queso, plato regional", "en": "Corn and cheese savory cake, regional dish" }, "tiempo": "50 min" }
+    ]
+  }
+  ,
+{
+  "nombre": { "es": "Zapallo Anco", "en": "Butternut Squash" },
+  "emoji": "🎃",
+  "tipo": "verdura",
+  "estacion": ["otoño", "invierno"],
+  "imagen": "https://images.unsplash.com/photo-1591578954582-dc4a81447c6c?auto=format&fit=crop&w=800&q=80",
+  "calorias": 45,
+  "vitaminas": ["A", "C", "B6"],
+  "minerales": ["Potasio", "Magnesio"],
+  "descripcion_corta": {
+    "es": "De forma acampanada y pulpa naranja dulce. Ideal para sopas, purés y el tradicional locro argentino.",
+    "en": "Bell-shaped with sweet orange flesh. Perfect for soups, purees and the traditional Argentine locro stew."
+  }
+}
+]
