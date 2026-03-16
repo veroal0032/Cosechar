@@ -34,14 +34,11 @@ export default function DetailPage() {
   // activeIndex = real item index (0 … TOTAL-1)
   // Corresponding DOM index = activeIndex + 1  (clone prepended at 0)
   const [activeIndex, setActiveIndex] = useState(startIndex);
-  const [bgColor, setBgColor] = useState(() => {
-    const season = allCarouselItems[startIndex]?.estacion?.[0]?.trim().toLowerCase().normalize('NFC');
-    return SEASON_BG[season] ?? SEASON_BG.verano;
-  });
   const scrollRef = useRef(null);
   const rafRef    = useRef(null);
 
   const activeSeason = allCarouselItems[activeIndex]?.estacion?.[0]?.trim().toLowerCase().normalize('NFC') ?? 'verano';
+  const bgColor = SEASON_BG[activeSeason] ?? SEASON_BG.verano;
 
   // Sync bgColor to <html> so iOS Safari overscroll areas match the card background
   useEffect(() => {
@@ -92,8 +89,6 @@ export default function DetailPage() {
 
       const applyRealIndex = (realIdx) => {
         setActiveIndex(realIdx);
-        const season = allCarouselItems[realIdx]?.estacion?.[0]?.trim().toLowerCase().normalize('NFC');
-        setBgColor(SEASON_BG[season] ?? SEASON_BG.verano);
       };
 
       if (domIdx === 0) {
