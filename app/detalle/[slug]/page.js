@@ -43,6 +43,7 @@ export default function DetailPage() {
 
   // Shared helper — update active index from a real (non-clone) index
   const applyRealIndex = useCallback((realIdx) => {
+    console.log('activeIndex:', realIdx);
     setActiveIndex(realIdx);
   }, []);
 
@@ -63,6 +64,7 @@ export default function DetailPage() {
 
   // Sync bgColor → html background (iOS overscroll) + theme-color meta
   useEffect(() => {
+    console.log('bgColor cambió a:', bgColor);
     const html = document.documentElement;
     const prevBg = html.style.backgroundColor;
     html.style.backgroundColor = bgColor;
