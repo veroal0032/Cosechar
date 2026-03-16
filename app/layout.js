@@ -10,6 +10,9 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: "Cosechar — Temporada Argentina",
   description: "Frutas y verduras de temporada en Argentina. Guía para saber qué comer según la estación del año.",
+};
+
+export const viewport = {
   themeColor: "#ffffff",
 };
 

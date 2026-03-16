@@ -34,19 +34,86 @@ export default function DetailPage() {
   // activeIndex = real item index (0 … TOTAL-1)
   // Corresponding DOM index = activeIndex + 1  (clone prepended at 0)
   const [activeIndex, setActiveIndex] = useState(startIndex);
-  const scrollRef = useRef(null);
-  const rafRef    = useRef(null);
+  const scrollRef     = useRef(null);
+  const rafRef        = useRef(null);
+  const themeMetaRef  = useRef(null);
 
   const activeSeason = allCarouselItems[activeIndex]?.estacion?.[0]?.trim().toLowerCase().normalize('NFC') ?? 'verano';
   const bgColor = SEASON_BG[activeSeason] ?? SEASON_BG.verano;
 
-  // Sync bgColor to <html> so iOS Safari overscroll areas match the card background
+  // Shared helper — update active index from a real (non-clone) index
+  const applyRealIndex = useCallback((realIdx) => {
+    setActiveIndex(realIdx);
+  }, []);
+
+  // Create a dedicated <meta name="theme-color"> on mount and remove on unmount.
+  // We own this tag via ref — avoids relying on Next.js's metadata system,
+  // which in App Router (Next 14+) only renders theme-color via `viewport` export.
+  useEffect(() => {
+    const meta = document.createElement('meta');
+    meta.name = 'theme-color';
+    meta.content = bgColor;
+    document.head.appendChild(meta);
+    themeMetaRef.current = meta;
+    return () => {
+      document.head.removeChild(meta);
+      themeMetaRef.current = null;
+    };
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Sync bgColor → html background (iOS overscroll) + theme-color meta
   useEffect(() => {
     const html = document.documentElement;
-    const prev = html.style.backgroundColor;
+    const prevBg = html.style.backgroundColor;
     html.style.backgroundColor = bgColor;
-    return () => { html.style.backgroundColor = prev; };
+    if (themeMetaRef.current) themeMetaRef.current.content = bgColor;
+    return () => { html.style.backgroundColor = prevBg; };
   }, [bgColor]);
+
+  // Fires when CSS scroll-snap animation truly finishes and updates activeIndex.
+  // Uses scrollend when available (Chrome 114+, Safari 16.4+).
+  // Falls back to scroll + setTimeout debounce for iOS Safari < 16.4.
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const onScrollEnd = () => {
+      const step   = cardStep(el.clientWidth);
+      const domIdx = Math.round(el.scrollLeft / step);
+      if (domIdx === 0) {
+        el.style.scrollBehavior = 'auto';
+        el.scrollLeft = TOTAL * step;
+        el.style.scrollBehavior = '';
+        applyRealIndex(TOTAL - 1);
+      } else if (domIdx === TOTAL + 1) {
+        el.style.scrollBehavior = 'auto';
+        el.scrollLeft = step;
+        el.style.scrollBehavior = '';
+        applyRealIndex(0);
+      } else {
+        const realIdx = domIdx - 1;
+        if (realIdx >= 0 && realIdx < TOTAL) applyRealIndex(realIdx);
+      }
+    };
+
+    const supportsScrollEnd = 'onscrollend' in window;
+
+    if (supportsScrollEnd) {
+      el.addEventListener('scrollend', onScrollEnd);
+      return () => el.removeEventListener('scrollend', onScrollEnd);
+    } else {
+      let scrollTimer;
+      const onScroll = () => {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(onScrollEnd, 150);
+      };
+      el.addEventListener('scroll', onScroll);
+      return () => {
+        el.removeEventListener('scroll', onScroll);
+        clearTimeout(scrollTimer);
+      };
+    }
+  }, [applyRealIndex]);
 
   // Lock body scroll while carousel is open.
   useEffect(() => {
@@ -78,7 +145,7 @@ export default function DetailPage() {
     el.style.scrollBehavior = '';
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Scroll handler — update active index and teleport when landing on a clone
+  // Scroll handler — update active index during swipe and teleport when landing on a clone
   const handleScroll = useCallback(() => {
     if (rafRef.current) cancelAnimationFrame(rafRef.current);
     rafRef.current = requestAnimationFrame(() => {
@@ -87,18 +154,12 @@ export default function DetailPage() {
       const step   = cardStep(el.clientWidth);
       const domIdx = Math.round(el.scrollLeft / step);
 
-      const applyRealIndex = (realIdx) => {
-        setActiveIndex(realIdx);
-      };
-
       if (domIdx === 0) {
-        // Landed on clone of last item — teleport to real last
         el.style.scrollBehavior = 'auto';
         el.scrollLeft = TOTAL * step;
         el.style.scrollBehavior = '';
         applyRealIndex(TOTAL - 1);
       } else if (domIdx === TOTAL + 1) {
-        // Landed on clone of first item — teleport to real first
         el.style.scrollBehavior = 'auto';
         el.scrollLeft = step;
         el.style.scrollBehavior = '';
@@ -108,7 +169,7 @@ export default function DetailPage() {
         if (realIdx >= 0 && realIdx < TOTAL) applyRealIndex(realIdx);
       }
     });
-  }, []);
+  }, [applyRealIndex]);
 
   // Jump to first item of a season
   const jumpToSeason = useCallback((season) => {
