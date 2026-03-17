@@ -32,7 +32,7 @@ const FILTER_KEYS = ['todo', 'fruta', 'verdura'];
 export default function Home() {
   const { lang, setLang, setSelectedSeason } = useLanguage();
   const [filter, setFilter] = useState('todo');
-  const [season, setSeason] = useState(getCurrentSeason);
+  const [season, setSeason] = useState(() => sessionStorage.getItem('selectedSeason') || getCurrentSeason());
   const [pickerOpen, setPickerOpen] = useState(false);
 
   if (lang === null) return null;
