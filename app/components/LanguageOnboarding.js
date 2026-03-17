@@ -1,3 +1,5 @@
+import AppName from './AppName';
+
 export default function LanguageOnboarding({ onSelect }) {
   return (
     <div className="min-h-screen bg-stone-50 flex flex-col items-center justify-center px-6">
@@ -5,15 +7,15 @@ export default function LanguageOnboarding({ onSelect }) {
       {/* App identity */}
       <div className="text-center mb-14">
         <div className="text-7xl mb-5 select-none">🌱</div>
-        <h1 className="text-3xl font-bold text-stone-900 tracking-tight">Cosechar</h1>
+        <h1 className="text-3xl font-bold text-stone-900 tracking-tight"><AppName /></h1>
         <p className="text-stone-400 mt-2 text-sm tracking-wide">
-          Seasonal produce · Temporada argentina
+          Temporada argentina · Seasonal produce
         </p>
       </div>
 
       {/* Language prompt */}
       <p className="text-xs text-stone-400 uppercase tracking-widest font-medium mb-6">
-        Elegí tu idioma · Choose your language
+        Idioma · Choose your language
       </p>
 
       {/* Language buttons */}

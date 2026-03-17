@@ -2,6 +2,7 @@
 
 import { useLanguage } from '@/app/contexts/LanguageContext';
 import BottomNav from '@/app/components/BottomNav';
+import AppName from '@/app/components/AppName';
 
 export default function AboutPage() {
   const { lang } = useLanguage();
@@ -24,7 +25,7 @@ export default function AboutPage() {
         {/* App identity card */}
         <div className="bg-white rounded-3xl px-6 py-6 border border-stone-100">
           <div className="text-5xl mb-4 select-none">🌱</div>
-          <h2 className="text-2xl font-bold text-stone-900 tracking-tight mb-1">Cosechar</h2>
+          <h2 className="text-2xl font-bold text-stone-900 tracking-tight mb-1"><AppName /></h2>
           <p className="text-stone-500 text-sm leading-relaxed">
             {l === 'en'
               ? 'Seasonal fruits & vegetables in Argentina'

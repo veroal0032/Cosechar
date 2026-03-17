@@ -7,6 +7,7 @@ import { translations } from './i18n/translations';
 import { slugify } from './lib/utils';
 import BottomNav from './components/BottomNav';
 import LanguageOnboarding from './components/LanguageOnboarding';
+import AppName from './components/AppName';
 import produce from '@/data/produce.json';
 
 const SEASON_ORDER = ['verano', 'otoño', 'invierno', 'primavera'];
@@ -55,7 +56,7 @@ export default function Home() {
       <div className="px-5 pt-14 pb-2">
         <div className="flex items-start justify-between">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight text-stone-900">{t.appName}</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-stone-900"><AppName /></h1>
             <p className="text-stone-400 text-sm mt-1">{t.appSubtitle}</p>
           </div>
           <button
