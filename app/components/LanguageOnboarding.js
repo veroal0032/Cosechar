@@ -32,7 +32,7 @@ export default function LanguageOnboarding({ onSelect }) {
           onClick={() => onSelect('en')}
           className="flex-1 flex flex-col items-center gap-3 bg-white rounded-3xl py-7 px-4 shadow-sm border border-stone-100 hover:border-stone-300 hover:shadow-md transition-all active:scale-95"
         >
-          <span className="text-4xl select-none">🇬🇧</span>
+          <span className="text-4xl select-none">🇺🇸</span>
           <span className="font-semibold text-stone-800 text-base">English</span>
         </button>
       </div>

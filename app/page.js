@@ -64,7 +64,7 @@ export default function Home() {
             className="mt-1 text-xl select-none active:scale-90 transition-transform"
             title={lang === 'es' ? 'Switch to English' : 'Cambiar a Español'}
           >
-            {lang === 'es' ? '🇬🇧' : '🇦🇷'}
+            {lang === 'es' ? '🇺🇸' : '🇦🇷'}
           </button>
         </div>
 
