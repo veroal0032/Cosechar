@@ -4,10 +4,10 @@ export const SEASON_ORDER = ['verano', 'otoño', 'invierno', 'primavera'];
 
 // Background colors for the full-screen carousel
 export const SEASON_BG = {
-  verano:    '#FF6B6B', // bright warm coral
+  verano:    '#CC4444', // bright warm coral
   otoño:     '#C1440E', // deep terracotta
   invierno:  '#3F6E8C', // muted slate-blue
-  primavera: '#4A8C5C', // soft forest green
+  primavera: '#3D7A4E', // soft forest green
 };
 
 export const SEASON_EMOJI = {

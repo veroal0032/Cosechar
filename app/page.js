@@ -13,10 +13,10 @@ import produce from '@/data/produce.json';
 const SEASON_ORDER = ['verano', 'otoño', 'invierno', 'primavera'];
 
 const SEASON_INFO = {
-  verano:    { emoji: '🌞', chipBg: '#FFE8E8', chipText: '#CC2222', activeBg: '#FF6B6B' },
-  otoño:     { emoji: '🍂', chipBg: '#F5DDD5', chipText: '#C1440E', activeBg: '#C1440E' },
+  verano:    { emoji: '🌞', chipBg: '#FFE8E8', chipText: '#CC2222', activeBg: '#CC4444' },
+  otoño:     { emoji: '🍂', chipBg: '#F5DDD5', chipText: '#9B3510', activeBg: '#C1440E' },
   invierno:  { emoji: '❄️', chipBg: '#E3F2FD', chipText: '#1565C0', activeBg: '#1565C0' },
-  primavera: { emoji: '🌸', chipBg: '#E8F5E9', chipText: '#2E7D32', activeBg: '#2E7D32' },
+  primavera: { emoji: '🌸', chipBg: '#E8F5E9', chipText: '#2E7D32', activeBg: '#3D7A4E' },
 };
 
 function getCurrentSeason() {
